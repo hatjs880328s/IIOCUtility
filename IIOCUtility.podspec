@@ -44,19 +44,19 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
 
   s.subspec 'AccessToken' do |ss|
-      ss.source_files = 'IIOCUti/Classes/AccessToken/*.{h,m}'
+      ss.source_files = 'IIOCUtility/Classes/AccessToken/*.{h,m}'
   end
 
   s.subspec 'GETDevice' do |ss|
-      ss.source_files = 'IIOCUti/Classes/GETDevice/*.{h,m}'
+      ss.source_files = 'IIOCUtility/Classes/GETDevice/*.{h,m}'
   end
 
   s.subspec 'IIRouteAlert' do |ss|
-      ss.source_files = 'IIOCUti/Classes/IIRouteAlert/*.{h,m}'
+      ss.source_files = 'IIOCUtility/Classes/IIRouteAlert/*.{h,m}'
   end
 
   s.subspec 'UTI' do |ss|
-      ss.source_files = 'IIOCUti/Classes/UTI/*.{h,m}'
+      ss.source_files = 'IIOCUtility/Classes/UTI/*.{h,m}'
   end
 
 
