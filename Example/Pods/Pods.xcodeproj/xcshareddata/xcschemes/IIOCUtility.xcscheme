@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "31DAF28F9828726C4F6DF1142039FE50"
-               BuildableName = "IIOCUtility"
+               BlueprintIdentifier = "CEC25F73B5F2AF4D0C8672A1C57C062B"
+               BuildableName = "IIOCUtility.framework"
                BlueprintName = "IIOCUtility"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
@@ -45,8 +45,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "31DAF28F9828726C4F6DF1142039FE50"
-            BuildableName = "IIOCUtility"
+            BlueprintIdentifier = "CEC25F73B5F2AF4D0C8672A1C57C062B"
+            BuildableName = "IIOCUtility.framework"
             BlueprintName = "IIOCUtility"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
@@ -63,8 +63,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "31DAF28F9828726C4F6DF1142039FE50"
-            BuildableName = "IIOCUtility"
+            BlueprintIdentifier = "CEC25F73B5F2AF4D0C8672A1C57C062B"
+            BuildableName = "IIOCUtility.framework"
             BlueprintName = "IIOCUtility"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>

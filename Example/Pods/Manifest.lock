@@ -3,45 +3,80 @@ PODS:
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
   - III18N (0.4.0)
-  - IIOCUtility (0.1.0):
+  - IIOCUtility (0.2.0):
     - FMDB
     - III18N
-    - IIOCUtility/AccessToken (= 0.1.0)
-    - IIOCUtility/GETDevice (= 0.1.0)
-    - IIOCUtility/IIRouteAlert (= 0.1.0)
-    - IIOCUtility/UTI (= 0.1.0)
+    - IIOCUtility/AccessToken (= 0.2.0)
+    - IIOCUtility/GETDevice (= 0.2.0)
+    - IIOCUtility/IIRouteAlert (= 0.2.0)
+    - IIOCUtility/IIWCDB (= 0.2.0)
+    - IIOCUtility/IMPCache (= 0.2.0)
+    - IIOCUtility/IMPUser (= 0.2.0)
+    - IIOCUtility/UTI (= 0.2.0)
     - MJExtension
     - SDWebImage (~> 4.4.5)
     - Toast
-  - IIOCUtility/AccessToken (0.1.0):
-    - FMDB
-    - III18N
-    - MJExtension
-    - SDWebImage (~> 4.4.5)
-    - Toast
-  - IIOCUtility/GETDevice (0.1.0):
-    - FMDB
-    - III18N
-    - MJExtension
-    - SDWebImage (~> 4.4.5)
-    - Toast
-  - IIOCUtility/IIRouteAlert (0.1.0):
+    - WCDB
+  - IIOCUtility/AccessToken (0.2.0):
     - FMDB
     - III18N
     - MJExtension
     - SDWebImage (~> 4.4.5)
     - Toast
-  - IIOCUtility/UTI (0.1.0):
+    - WCDB
+  - IIOCUtility/GETDevice (0.2.0):
     - FMDB
     - III18N
     - MJExtension
     - SDWebImage (~> 4.4.5)
     - Toast
+    - WCDB
+  - IIOCUtility/IIRouteAlert (0.2.0):
+    - FMDB
+    - III18N
+    - MJExtension
+    - SDWebImage (~> 4.4.5)
+    - Toast
+    - WCDB
+  - IIOCUtility/IIWCDB (0.2.0):
+    - FMDB
+    - III18N
+    - MJExtension
+    - SDWebImage (~> 4.4.5)
+    - Toast
+    - WCDB
+  - IIOCUtility/IMPCache (0.2.0):
+    - FMDB
+    - III18N
+    - MJExtension
+    - SDWebImage (~> 4.4.5)
+    - Toast
+    - WCDB
+  - IIOCUtility/IMPUser (0.2.0):
+    - FMDB
+    - III18N
+    - MJExtension
+    - SDWebImage (~> 4.4.5)
+    - Toast
+    - WCDB
+  - IIOCUtility/UTI (0.2.0):
+    - FMDB
+    - III18N
+    - MJExtension
+    - SDWebImage (~> 4.4.5)
+    - Toast
+    - WCDB
   - MJExtension (3.0.16)
   - SDWebImage (4.4.6):
     - SDWebImage/Core (= 4.4.6)
   - SDWebImage/Core (4.4.6)
+  - SQLiteRepairKit (1.2.2):
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
   - Toast (4.0.0)
+  - WCDB (1.0.7.5):
+    - SQLiteRepairKit (~> 1.2.0)
+    - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - WCDBOptimizedSQLCipher (1.2.1)
 
 DEPENDENCIES:
   - IIOCUtility (from `../`)
@@ -52,7 +87,10 @@ SPEC REPOS:
     - III18N
     - MJExtension
     - SDWebImage
+    - SQLiteRepairKit
     - Toast
+    - WCDB
+    - WCDBOptimizedSQLCipher
 
 EXTERNAL SOURCES:
   IIOCUtility:
@@ -61,10 +99,13 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   III18N: 6c70b89556c9f75f272a4750948e01184f3428b9
-  IIOCUtility: c0bb222d921e3048bc5cb80feaf778a42a70702f
+  IIOCUtility: ccc78648e4eff2ae6a424795fd03897692cb080b
   MJExtension: 54dbbf6ee728f1a88e9aad904353d007831c7847
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
+  WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
 
 PODFILE CHECKSUM: 980dcabc2c2f477ab23958040446623dd4e47a0d
 

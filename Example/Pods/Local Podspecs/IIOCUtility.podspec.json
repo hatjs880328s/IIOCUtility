@@ -1,8 +1,8 @@
 {
   "name": "IIOCUtility",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "IIOCUtility.",
-  "description": "1.AccessToken\n2.GetDevice\n3.RouteAlert\n4.Utilities",
+  "description": "1.AccessToken\n2.GetDevice\n3.RouteAlert\n4.Utilities\n5.Impcache\n6.IIWCDB\n7.IMPUser & EnterpriseModel",
   "homepage": "https://github.com/hatjs880328s/IIOCUtility",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hatjs880328s/IIOCUtility.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -38,24 +38,39 @@
     ],
     "Toast": [
 
+    ],
+    "WCDB": [
+
     ]
   },
   "subspecs": [
     {
       "name": "AccessToken",
-      "source_files": "IIOCUti/Classes/AccessToken/*.{h,m}"
+      "source_files": "IIOCUtility/Classes/AccessToken/*.{h,m}"
     },
     {
       "name": "GETDevice",
-      "source_files": "IIOCUti/Classes/GETDevice/*.{h,m}"
+      "source_files": "IIOCUtility/Classes/GETDevice/*.{h,m}"
     },
     {
       "name": "IIRouteAlert",
-      "source_files": "IIOCUti/Classes/IIRouteAlert/*.{h,m}"
+      "source_files": "IIOCUtility/Classes/IIRouteAlert/*.{h,m}"
     },
     {
       "name": "UTI",
-      "source_files": "IIOCUti/Classes/UTI/*.{h,m}"
+      "source_files": "IIOCUtility/Classes/UTI/*.{h,m}"
+    },
+    {
+      "name": "IIWCDB",
+      "source_files": "IIOCUtility/Classes/IIWCDB/*.*"
+    },
+    {
+      "name": "IMPCache",
+      "source_files": "IIOCUtility/Classes/IMPCache/*.*"
+    },
+    {
+      "name": "IMPUser",
+      "source_files": "IIOCUtility/Classes/IMPUser/*.*"
     }
   ]
 }

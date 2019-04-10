@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IIOCUtility'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'IIOCUtility.'
 
 # This description is used to generate tags and improve search results.
@@ -22,6 +22,9 @@ Pod::Spec.new do |s|
 2.GetDevice
 3.RouteAlert
 4.Utilities
+5.Impcache
+6.IIWCDB
+7.IMPUser & EnterpriseModel
                        DESC
 
   s.homepage         = 'https://github.com/hatjs880328s/IIOCUtility'
@@ -59,6 +62,18 @@ Pod::Spec.new do |s|
       ss.source_files = 'IIOCUtility/Classes/UTI/*.{h,m}'
   end
 
+  s.subspec 'IIWCDB' do |ss|
+      ss.source_files = 'IIOCUtility/Classes/IIWCDB/*.*'
+  end
+
+  s.subspec 'IMPCache' do |ss|
+      ss.source_files = 'IIOCUtility/Classes/IMPCache/*.*'
+  end
+
+  s.subspec 'IMPUser' do |ss|
+      ss.source_files = 'IIOCUtility/Classes/IMPUser/*.*'
+  end
+
 
   s.frameworks = 'UIKit', 'AVFoundation', 'WebKit'
   s.dependency 'SDWebImage', '~>4.4.5'
@@ -66,4 +81,5 @@ Pod::Spec.new do |s|
   s.dependency 'MJExtension'
   s.dependency 'FMDB'
   s.dependency 'Toast'
+  s.dependency 'WCDB'
 end
