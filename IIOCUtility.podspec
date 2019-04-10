@@ -62,18 +62,6 @@ Pod::Spec.new do |s|
       ss.source_files = 'IIOCUtility/Classes/UTI/*.{h,m}'
   end
 
-  s.subspec 'IIWCDB' do |ss|
-      ss.source_files = 'IIOCUtility/Classes/IIWCDB/*.*'
-  end
-
-  s.subspec 'IMPCache' do |ss|
-      ss.source_files = 'IIOCUtility/Classes/IMPCache/*.*'
-  end
-
-  s.subspec 'IMPUser' do |ss|
-      ss.source_files = 'IIOCUtility/Classes/IMPUser/*.*'
-  end
-
 
   s.frameworks = 'UIKit', 'AVFoundation', 'WebKit'
   s.dependency 'SDWebImage', '~>4.4.5'

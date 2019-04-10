@@ -59,18 +59,6 @@
     {
       "name": "UTI",
       "source_files": "IIOCUtility/Classes/UTI/*.{h,m}"
-    },
-    {
-      "name": "IIWCDB",
-      "source_files": "IIOCUtility/Classes/IIWCDB/*.*"
-    },
-    {
-      "name": "IMPCache",
-      "source_files": "IIOCUtility/Classes/IMPCache/*.*"
-    },
-    {
-      "name": "IMPUser",
-      "source_files": "IIOCUtility/Classes/IMPUser/*.*"
     }
   ]
 }
