@@ -1,0 +1,71 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - III18N (0.4.0)
+  - IIOCUtility (0.1.0):
+    - FMDB
+    - III18N
+    - IIOCUtility/AccessToken (= 0.1.0)
+    - IIOCUtility/GETDevice (= 0.1.0)
+    - IIOCUtility/IIRouteAlert (= 0.1.0)
+    - IIOCUtility/UTI (= 0.1.0)
+    - MJExtension
+    - SDWebImage (~> 4.4.5)
+    - Toast
+  - IIOCUtility/AccessToken (0.1.0):
+    - FMDB
+    - III18N
+    - MJExtension
+    - SDWebImage (~> 4.4.5)
+    - Toast
+  - IIOCUtility/GETDevice (0.1.0):
+    - FMDB
+    - III18N
+    - MJExtension
+    - SDWebImage (~> 4.4.5)
+    - Toast
+  - IIOCUtility/IIRouteAlert (0.1.0):
+    - FMDB
+    - III18N
+    - MJExtension
+    - SDWebImage (~> 4.4.5)
+    - Toast
+  - IIOCUtility/UTI (0.1.0):
+    - FMDB
+    - III18N
+    - MJExtension
+    - SDWebImage (~> 4.4.5)
+    - Toast
+  - MJExtension (3.0.16)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - Toast (4.0.0)
+
+DEPENDENCIES:
+  - IIOCUtility (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+    - III18N
+    - MJExtension
+    - SDWebImage
+    - Toast
+
+EXTERNAL SOURCES:
+  IIOCUtility:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  III18N: 6c70b89556c9f75f272a4750948e01184f3428b9
+  IIOCUtility: c0bb222d921e3048bc5cb80feaf778a42a70702f
+  MJExtension: 54dbbf6ee728f1a88e9aad904353d007831c7847
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+
+PODFILE CHECKSUM: 980dcabc2c2f477ab23958040446623dd4e47a0d
+
+COCOAPODS: 1.6.0.beta.2

@@ -1,0 +1,6 @@
+framework module IIOCUtility {
+  umbrella header "IIOCUtility-umbrella.h"
+
+  export *
+  module * { export * }
+}

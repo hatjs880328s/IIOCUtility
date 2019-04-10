@@ -1,0 +1,6 @@
+framework module Pods_IIOCUtility_Tests {
+  umbrella header "Pods-IIOCUtility_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
