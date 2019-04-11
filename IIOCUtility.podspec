@@ -63,7 +63,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Cache' do |ss|
-    ss.source_files = 'IIOCUtility/Classes/Cache/*.*'
+      ss.source_files = 'IIOCUtility/Classes/Cache/*.{h,m,mm,txt}'
   end
 
 
