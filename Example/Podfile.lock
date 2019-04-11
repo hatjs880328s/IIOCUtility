@@ -3,39 +3,47 @@ PODS:
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
   - III18N (0.4.0)
-  - IIOCUtility (0.2.0):
+  - IIOCUtility (0.3.0):
     - FMDB
     - III18N
-    - IIOCUtility/AccessToken (= 0.2.0)
-    - IIOCUtility/GETDevice (= 0.2.0)
-    - IIOCUtility/IIRouteAlert (= 0.2.0)
-    - IIOCUtility/UTI (= 0.2.0)
+    - IIOCUtility/AccessToken (= 0.3.0)
+    - IIOCUtility/Cache (= 0.3.0)
+    - IIOCUtility/GETDevice (= 0.3.0)
+    - IIOCUtility/IIRouteAlert (= 0.3.0)
+    - IIOCUtility/UTI (= 0.3.0)
     - MJExtension
     - SDWebImage (~> 4.4.5)
     - Toast
     - WCDB
-  - IIOCUtility/AccessToken (0.2.0):
-    - FMDB
-    - III18N
-    - MJExtension
-    - SDWebImage (~> 4.4.5)
-    - Toast
-    - WCDB
-  - IIOCUtility/GETDevice (0.2.0):
+  - IIOCUtility/AccessToken (0.3.0):
     - FMDB
     - III18N
     - MJExtension
     - SDWebImage (~> 4.4.5)
     - Toast
     - WCDB
-  - IIOCUtility/IIRouteAlert (0.2.0):
+  - IIOCUtility/Cache (0.3.0):
     - FMDB
     - III18N
     - MJExtension
     - SDWebImage (~> 4.4.5)
     - Toast
     - WCDB
-  - IIOCUtility/UTI (0.2.0):
+  - IIOCUtility/GETDevice (0.3.0):
+    - FMDB
+    - III18N
+    - MJExtension
+    - SDWebImage (~> 4.4.5)
+    - Toast
+    - WCDB
+  - IIOCUtility/IIRouteAlert (0.3.0):
+    - FMDB
+    - III18N
+    - MJExtension
+    - SDWebImage (~> 4.4.5)
+    - Toast
+    - WCDB
+  - IIOCUtility/UTI (0.3.0):
     - FMDB
     - III18N
     - MJExtension
@@ -75,7 +83,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   III18N: 6c70b89556c9f75f272a4750948e01184f3428b9
-  IIOCUtility: 06ab436b1fd71cb7cc6bf750f6abf3b8e9ff14b9
+  IIOCUtility: 6c176cd4485feebd8980192166c39409880c0726
   MJExtension: 54dbbf6ee728f1a88e9aad904353d007831c7847
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
   SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
