@@ -70,9 +70,9 @@ static BOOL SQLPrintForTest = NO;//用于调试时打印SQL语句
 }
 
 - (BOOL)createTableAndIndexesOfName:(NSString *)tableName withClass:(__unsafe_unretained Class<WCTTableCoding>)tableClass {
-    if([self isTableExists:tableName]){
-        return YES;
-    }
+    //    if([self isTableExists:tableName]){
+    //        return YES;
+    //    }
     return [self.db createTableAndIndexesOfName:tableName withClass:tableClass];
 }
 
@@ -121,10 +121,10 @@ static BOOL SQLPrintForTest = NO;//用于调试时打印SQL语句
 }
 
 - (NSArray /* <WCTObject*> */ *)getObjectsOfClass:(Class)cls
-                                         fromTable:(NSString *)tableName
-                                           orderBy:(const MyWCTOrderByList &)orderList
-                                             limit:(const MyWCTLimit &)limit
-                                            offset:(const MyWCTOffset &)offset{
+                                        fromTable:(NSString *)tableName
+                                          orderBy:(const MyWCTOrderByList &)orderList
+                                            limit:(const MyWCTLimit &)limit
+                                           offset:(const MyWCTOffset &)offset{
     if(![self isTableExists:tableName]){
         return nil;
     }
@@ -243,19 +243,19 @@ static BOOL SQLPrintForTest = NO;//用于调试时打印SQL语句
 
 - (void)registerErrorMonitor {
     [WCTStatistics SetGlobalErrorReport:^(WCTError *error) {
-        NSLog(@"[WCDB]%@", error);
+        /*NSLog(@"[WCDB]%@", error);*/
         if(error.description != nil) {
             //临时注释掉，等AOP拆分后，再打开
-//            WCDBEvent *event = [[WCDBEvent alloc] init];
-//            [event setBaseInfoWithErrorInfo: error.description];
-//            [[AOPNBPCoreManagerCenter getInstance] writeCustomLogWithEvent:event];
+            //            WCDBEvent *event = [[WCDBEvent alloc] init];
+            //            [event setBaseInfoWithErrorInfo: error.description];
+            //            [[AOPNBPCoreManagerCenter getInstance] writeCustomLogWithEvent:event];
         }
     }];
 }
 
 - (void)registerTimeMonitor {
     [WCTStatistics SetGlobalPerformanceTrace:^(WCTTag tag, NSDictionary<NSString *, NSNumber *> *sqls, NSInteger cost) {
-//        NSLog(@"Tag: %d", tag);
+        //        NSLog(@"Tag: %d", tag);
         [sqls enumerateKeysAndObjectsUsingBlock:^(NSString *sql, NSNumber *count, BOOL *) {
             NSLog(@"SQL: %@ Count: %d", sql, count.intValue);
         }];
