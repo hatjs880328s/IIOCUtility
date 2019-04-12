@@ -2,7 +2,7 @@
   "name": "IIOCUtility",
   "version": "0.8.0",
   "summary": "IIOCUtility.",
-  "description": "1.AccessToken\n2.GetDevice\n3.RouteAlert\n4.Utilities\n5.Impcache\n6.IIWCDB\n7.IMPUser & EnterpriseModel",
+  "description": "1.AccessToken\n2.GetDevice\n3.RouteAlert\n4.Utilities\n5.Impcache\n6.IIWCDB\n7.IMPUser & EnterpriseModel\n8.IIRefresh",
   "homepage": "https://github.com/hatjs880328s/IIOCUtility",
   "license": {
     "type": "MIT",
