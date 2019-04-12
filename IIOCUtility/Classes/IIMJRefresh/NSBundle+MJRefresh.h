@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "IIOCUtility/IMPCache.h"
+#import "IMPCache.h"
 
 @interface NSBundle (MJRefresh)
 + (instancetype)mj_refreshBundle;
