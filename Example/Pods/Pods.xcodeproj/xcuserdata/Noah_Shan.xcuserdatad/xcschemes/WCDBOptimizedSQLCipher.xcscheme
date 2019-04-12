@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D628E87CEE878EDC7E40E70F53A35ACF"
+               BlueprintIdentifier = "BE7CE8CC6046BF6DFC4F6D735CED3A72"
                BuildableName = "sqlcipher.framework"
                BlueprintName = "WCDBOptimizedSQLCipher"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D628E87CEE878EDC7E40E70F53A35ACF"
+            BlueprintIdentifier = "BE7CE8CC6046BF6DFC4F6D735CED3A72"
             BuildableName = "sqlcipher.framework"
             BlueprintName = "WCDBOptimizedSQLCipher"
             ReferencedContainer = "container:Pods.xcodeproj">

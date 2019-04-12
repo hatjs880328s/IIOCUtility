@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IIOCUtility'
-  s.version          = '0.7.0'
+  s.version          = '0.8.0'
   s.summary          = 'IIOCUtility.'
 
 # This description is used to generate tags and improve search results.
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
 5.Impcache
 6.IIWCDB
 7.IMPUser & EnterpriseModel
+8.IIRefresh
                        DESC
 
   s.homepage         = 'https://github.com/hatjs880328s/IIOCUtility'
@@ -64,6 +65,10 @@ Pod::Spec.new do |s|
 
   s.subspec 'Cache' do |ss|
       ss.source_files = 'IIOCUtility/Classes/Cache/*.{h,m,mm,txt}'
+  end
+
+  s.subspec 'IIMJRefresh' do |ss|
+    ss.source_files = 'IIOCUtility/Classes/IIMJRefresh/**/*'
   end
 
 
