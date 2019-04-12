@@ -17,7 +17,17 @@ typedef WCTOffset MyWCTOffset;
 
 @interface IIDataBase : NSObject
 
+///数据库启动时间
 @property (assign, nonatomic) NSTimeInterval startTime;
+
+///调试参数 是否开启SQL耗时监控
+@property (assign, nonatomic) BOOL sqlTimeCostMonitor;
+
+///调试参数 是否打印SQL语句
+@property (assign, nonatomic) BOOL sqlPrintForTest;
+
+///调试参数 是否打印错误提示
+@property (assign, nonatomic) BOOL errorPrint;
 
 + (IIDataBase *)instance;
 

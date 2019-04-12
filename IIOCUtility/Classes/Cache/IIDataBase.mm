@@ -22,9 +22,6 @@
 
 static IIDataBase *shareInstance = nil;
 
-static BOOL SQLTimeCostMonitor = NO;//yifan Test 是否开启SQL耗时监控 NO
-static BOOL SQLPrintForTest = NO;//用于调试时打印SQL语句
-
 + (IIDataBase *)instance {
     static dispatch_once_t predicate;
     dispatch_once(&predicate, ^{
@@ -46,12 +43,14 @@ static BOOL SQLPrintForTest = NO;//用于调试时打印SQL语句
 
         _startTime = [[NSDate date] timeIntervalSince1970];
 
-        [self registerErrorMonitor];
-        if(SQLTimeCostMonitor){
+        if(_errorPrint){
+            [self registerErrorMonitor];
+        }
+        if(_sqlTimeCostMonitor){
             [self registerTimeMonitor];
         }
 
-        if(SQLPrintForTest){
+        if(_sqlPrintForTest){
             [self registerSQLPrint];
         }
     }
@@ -70,9 +69,9 @@ static BOOL SQLPrintForTest = NO;//用于调试时打印SQL语句
 }
 
 - (BOOL)createTableAndIndexesOfName:(NSString *)tableName withClass:(__unsafe_unretained Class<WCTTableCoding>)tableClass {
-    //    if([self isTableExists:tableName]){
-    //        return YES;
-    //    }
+//    if([self isTableExists:tableName]){
+//        return YES;
+//    }
     return [self.db createTableAndIndexesOfName:tableName withClass:tableClass];
 }
 
@@ -121,10 +120,10 @@ static BOOL SQLPrintForTest = NO;//用于调试时打印SQL语句
 }
 
 - (NSArray /* <WCTObject*> */ *)getObjectsOfClass:(Class)cls
-                                        fromTable:(NSString *)tableName
-                                          orderBy:(const MyWCTOrderByList &)orderList
-                                            limit:(const MyWCTLimit &)limit
-                                           offset:(const MyWCTOffset &)offset{
+                                         fromTable:(NSString *)tableName
+                                           orderBy:(const MyWCTOrderByList &)orderList
+                                             limit:(const MyWCTLimit &)limit
+                                            offset:(const MyWCTOffset &)offset{
     if(![self isTableExists:tableName]){
         return nil;
     }
@@ -243,19 +242,19 @@ static BOOL SQLPrintForTest = NO;//用于调试时打印SQL语句
 
 - (void)registerErrorMonitor {
     [WCTStatistics SetGlobalErrorReport:^(WCTError *error) {
-        /*NSLog(@"[WCDB]%@", error);*/
+        NSLog(@"[WCDB]%@", error);
         if(error.description != nil) {
             //临时注释掉，等AOP拆分后，再打开
-            //            WCDBEvent *event = [[WCDBEvent alloc] init];
-            //            [event setBaseInfoWithErrorInfo: error.description];
-            //            [[AOPNBPCoreManagerCenter getInstance] writeCustomLogWithEvent:event];
+//            WCDBEvent *event = [[WCDBEvent alloc] init];
+//            [event setBaseInfoWithErrorInfo: error.description];
+//            [[AOPNBPCoreManagerCenter getInstance] writeCustomLogWithEvent:event];
         }
     }];
 }
 
 - (void)registerTimeMonitor {
     [WCTStatistics SetGlobalPerformanceTrace:^(WCTTag tag, NSDictionary<NSString *, NSNumber *> *sqls, NSInteger cost) {
-        //        NSLog(@"Tag: %d", tag);
+//        NSLog(@"Tag: %d", tag);
         [sqls enumerateKeysAndObjectsUsingBlock:^(NSString *sql, NSNumber *count, BOOL *) {
             NSLog(@"SQL: %@ Count: %d", sql, count.intValue);
         }];
