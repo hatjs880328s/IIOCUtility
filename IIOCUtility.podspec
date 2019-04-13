@@ -69,7 +69,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'IIMJRefresh' do |ss|
-    ss.source_files = 'IIOCUtility/Classes/IIMJRefresh/**/*'
+    ss.source_files = 'IIOCUtility/Classes/IIMJRefresh/**/*.{h,m}'
     ss.dependency 'IIOCUtility/Cache'
     ss.resource = 'IIOCUtility/Classes/IIMJRefresh/MJRefresh.bundle'
   end
