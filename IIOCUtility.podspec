@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IIOCUtility'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'IIOCUtility.'
 
 # This description is used to generate tags and improve search results.
@@ -71,6 +71,7 @@ Pod::Spec.new do |s|
   s.subspec 'IIMJRefresh' do |ss|
     ss.source_files = 'IIOCUtility/Classes/IIMJRefresh/**/*'
     ss.dependency 'IIOCUtility/Cache'
+    ss.resource = 'IIOCUtility/Classes/IIMJRefresh/MJRefresh.bundle'
   end
 
 
