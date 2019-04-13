@@ -67,7 +67,12 @@
     },
     {
       "name": "IIMJRefresh",
-      "source_files": "IIOCUtility/Classes/IIMJRefresh/**/*"
+      "source_files": "IIOCUtility/Classes/IIMJRefresh/**/*",
+      "dependencies": {
+        "IIOCUtility/Cache": [
+
+        ]
+      }
     }
   ]
 }

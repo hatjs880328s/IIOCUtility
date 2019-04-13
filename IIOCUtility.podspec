@@ -43,7 +43,7 @@ Pod::Spec.new do |s|
   #   'IIOCUtility' => ['IIOCUtility/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'IIOCUtility/Classes/Cache/IMPCache.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
@@ -70,6 +70,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'IIMJRefresh' do |ss|
     ss.source_files = 'IIOCUtility/Classes/IIMJRefresh/**/*'
+    ss.dependency 'IIOCUtility/Cache'
   end
 
 
