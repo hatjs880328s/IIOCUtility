@@ -1,6 +1,6 @@
 {
   "name": "IIOCUtility",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "summary": "IIOCUtility.",
   "description": "1.AccessToken\n2.GetDevice\n3.RouteAlert\n4.Utilities\n5.Impcache\n6.IIWCDB\n7.IMPUser & EnterpriseModel\n8.IIRefresh",
   "homepage": "https://github.com/hatjs880328s/IIOCUtility",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hatjs880328s/IIOCUtility.git",
-    "tag": "1.0.4"
+    "tag": "1.0.5"
   },
   "platforms": {
     "ios": "8.0"
@@ -66,7 +66,7 @@
     },
     {
       "name": "IIMJRefresh",
-      "source_files": "IIOCUtility/Classes/IIMJRefresh/**/*",
+      "source_files": "IIOCUtility/Classes/IIMJRefresh/**/*.{h,m}",
       "dependencies": {
         "IIOCUtility/Cache": [
 
