@@ -103,12 +103,12 @@
 		26EB648D8A453D89EE275D5A9A0C5495 /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B2EA4F7642B7F10D3E32A154AC3D5F /* UIView+WebCache.m */; };
 		26EE1B7ECE18518EC4C9E9B7248C2BDD /* mutex_wcdb.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D8433026DA45342C144F423C0669B92 /* mutex_wcdb.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2711B64CC1D5086DF233EDE4435A32D4 /* sqliterk_column.h in Headers */ = {isa = PBXBuildFile; fileRef = A2763CBBAF187DD57083ACEFB57AE67E /* sqliterk_column.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		27312C53FEDFCE72431DDF64936950D5 /* IMPUserModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C08E51FC98C21B5745CF5737135A038 /* IMPUserModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27AB280ACF3153C00F7B28659207ABBC /* fkey.c in Sources */ = {isa = PBXBuildFile; fileRef = D3B18A28CA49C233560F05EE187F48E1 /* fkey.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		27E9A7A18FA3003EF5BCE3680B9B6868 /* clause_join.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B4D01DAF436131D3424F91846BA65B8D /* clause_join.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		281111B3A0C6D4044323556BCFBDF1EA /* Toast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F97D9B0518DC366D0326917408CD1BC4 /* Toast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28165963EBB67EE1EC8FB2E6D5E671D9 /* statement_reindex.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 745DECB3B33D29EF2A2CB9716EB7F565 /* statement_reindex.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		28562766797858E181E030740F17E126 /* WCTSelectBase+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 918EE3042AA091BA4AA606DEB8207A8E /* WCTSelectBase+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2931E731CD0B0636B19DA0075EF27923 /* IMPEnterpriseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 194EC1044B68CFC9C9FF8374EB64A8A0 /* IMPEnterpriseModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		29CBDB3989E71A0637EFAAD59407B8E2 /* IMPI18N.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDBE5BBAFBA086E413CBC14F09A1C5C /* IMPI18N.m */; };
 		2A3598C100028A05090EFEF568DD440E /* SDWebImageTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = E81EDDBE50232D7AA2BCABD98642802C /* SDWebImageTransition.m */; };
 		2AB254936B9DB5ADAA03DD777DCB08E2 /* mem5.c in Sources */ = {isa = PBXBuildFile; fileRef = 552BFA8305B999ADEA186AF324CE2946 /* mem5.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -176,6 +176,7 @@
 		442E21DB6772EE02A89AF90AE167126B /* sqlcipher.h in Headers */ = {isa = PBXBuildFile; fileRef = 762F479EDFA439FED751D947094199AB /* sqlcipher.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		44770947BC60121801D186B02E4ABBA2 /* treeview.c in Sources */ = {isa = PBXBuildFile; fileRef = D4E9B9660969F2B26A86127ABC879A27 /* treeview.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		45B0161CFFD1BD23F8FE85313ABD3D03 /* malloc.c in Sources */ = {isa = PBXBuildFile; fileRef = CA613A359E3A32EF7F3CE4D2305429AA /* malloc.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		45BEA705BEE4075ED764101A5C8BC59E /* IIDataBase.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9FCC96F0C61DB2199FB0C79169CE1C /* IIDataBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45E59E33F4831D6B2D8617EAFDDCEB3C /* IIWCDB.txt in Sources */ = {isa = PBXBuildFile; fileRef = 2FF34F10BDC2C2BCFF182A45A16CEC1A /* IIWCDB.txt */; };
 		460A58913D855E4979251DEE6F86FD6B /* sqliterk_pager.c in Sources */ = {isa = PBXBuildFile; fileRef = 48170ED046CCD92265129D68391CA139 /* sqliterk_pager.c */; };
 		46DE723C1C888DDBFDF686752427EC3B /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C94675C6DA0F47038C7773597D6EC89B /* NSObject+MJClass.m */; };
@@ -253,6 +254,7 @@
 		662F8B5EC4CEB634EB82B2B5B4352CD8 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B9E274BD0731A63F5278EFE403C2716 /* MJFoundation.m */; };
 		66AC46B4EE81DF20598AEEB27307FA75 /* WCTSequence.h in Headers */ = {isa = PBXBuildFile; fileRef = 23FE959B955CBFE24E42443FAEAE33DB /* WCTSequence.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66B2D4DF13AA172F79E8F0FBAE696EC0 /* WCDBOptimizedSQLCipher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AE24D75114A67718380BF038EE9425 /* WCDBOptimizedSQLCipher-dummy.m */; };
+		6715F7ACE151E8CC672A1A42B91A8D77 /* IMPEnterpriseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 194EC1044B68CFC9C9FF8374EB64A8A0 /* IMPEnterpriseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67F5DD839675979158EA7F56C16AF0DD /* statement_drop_table.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A28CE0FF2BD5845DB6D870717E0414DA /* statement_drop_table.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		68090B12485D209197C19F3EC909607D /* WCTBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = D2EE03509B15ECD77DD6D78F1466FF00 /* WCTBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		684E26517FEE77441C4FEC14D7DE17E1 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F26526E20D3C8E773D566287E72F711 /* MJRefreshGifHeader.m */; };
@@ -341,6 +343,7 @@
 		87006A07C3BF8FEF135A07042AC10055 /* subquery.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C697D595F700D11D9C5A4A7E217C9E59 /* subquery.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		87EAC0DD90F9430221C4E59B2CA9442A /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C44102C7C1B99D31206E434448C0515 /* MJExtensionConst.m */; };
 		880FFE2ADFD426ABBA906F4C744C834B /* module_argument.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 689B4025EAA893BE24416866D7376C05 /* module_argument.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A13625D204D3E318D0FE90413D902BD /* IIDataBaseManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 68835455B5F8DF9ECFCA24AA38D4CB1E /* IIDataBaseManage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A3730B96406933C1E9D2ECCCFC48929 /* statement_pragma.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9D08A13C4884DF5784F4A5DC3801F087 /* statement_pragma.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AAA6577BE5BFE151826EC6DD7B27347 /* statement_alter_table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2323931B5E632F045F79FC4A2DCD0633 /* statement_alter_table.cpp */; };
 		8AE4F8D5B98DB3477A9BD438AC3ED41C /* mutex_wcdb.c in Sources */ = {isa = PBXBuildFile; fileRef = BC394995CC95CE9E379E9E276CFBF5F9 /* mutex_wcdb.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -515,7 +518,6 @@
 		C6840EAE1F79232E4F2E570CCD5F22B0 /* WCTDatabase+Compatible.mm in Sources */ = {isa = PBXBuildFile; fileRef = 35CA4C5F56520D23CB3F37DDAF40A3E4 /* WCTDatabase+Compatible.mm */; };
 		C7977ECFD125F2FB0D08D309C1B1A77D /* IMPEnterpriseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B873BA935704C32F2CB82F3841B39C /* IMPEnterpriseModel.m */; };
 		C7D0444CA5F715E8616D3E7470935727 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 453F2B7AEB6239A7AF1BDD58D8670466 /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C838F83F5B02969E29D26A9A4BD59F7F /* IIDataBase.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9FCC96F0C61DB2199FB0C79169CE1C /* IIDataBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CAC7A21FAE478623E743737759E4131C /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 340222572D8A7133AA37C98C2BEF01D9 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBA10785DE939290C801915D818371B9 /* SDWebImageGIFCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA8197607EE3B676EB6060FCB57E458 /* SDWebImageGIFCoder.m */; };
 		CC198474EAC0885506B8E7F4BDEBD53B /* path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 191934AEA0C221C27032C2DA28720D66 /* path.cpp */; };
@@ -605,7 +607,6 @@
 		EBF4D10A91C5CA6999A77EA16608C5B3 /* handle_recyclable.hpp in Headers */ = {isa = PBXBuildFile; fileRef = AF4127520C256EA54A5AA8C8729B1444 /* handle_recyclable.hpp */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBFD9B315240832A63CF0E92A059C23F /* order.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 226F6DD1928DBE1BF5D510AA5F6F94A1 /* order.cpp */; };
 		EC25834A4F43CDE61D42989D5C6A459A /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 063487A666756E4F060B83C946C74786 /* MJProperty.m */; };
-		ED17E8A83D50C9ECBA2065A24CA71647 /* IMPUserModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C08E51FC98C21B5745CF5737135A038 /* IMPUserModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ED4EA71C3302A11EB9FBB77759306007 /* vxworks.h in Headers */ = {isa = PBXBuildFile; fileRef = 800C16133F2CE2B791E82770353CBF6D /* vxworks.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EE7912D5ADF1DB64A1B4093E954801E0 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113B72A26BAEC6B3B66E536E377F516 /* UIScrollView+MJRefresh.m */; };
 		EF7E1F6EE73DF4A5B06C6E5E538741F9 /* WCTUpdate+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B2C28E5359DA9AEEB1275EE32A02F79 /* WCTUpdate+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -641,7 +642,6 @@
 		FC0C8A699BAFDFCFC33C25D4B94C05F0 /* sqliterk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1199E0BD7CF8DFA737B7C14F5C8B78DC /* sqliterk.framework */; };
 		FC9C00BCA8329ABDFFD2882B91205563 /* WCTSelectBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8860FF015CF8E5293638D304F8D83EB /* WCTSelectBase.mm */; };
 		FE4C3547EB85E4DC5FB24ACD27D2D65D /* WCTConstraintBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 67CE67EAC21804D4B99A2D42C8395B51 /* WCTConstraintBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE6E5BA5C498C5D5D46297718D774286 /* IIDataBaseManage.h in Headers */ = {isa = PBXBuildFile; fileRef = 68835455B5F8DF9ECFCA24AA38D4CB1E /* IIDataBaseManage.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FFFA4F84087499BB2EA5F7FE79AC50A0 /* sqliterk_btree.h in Headers */ = {isa = PBXBuildFile; fileRef = 300C7887B9BC5CAC4042EC19FA371A3C /* sqliterk_btree.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
@@ -2970,13 +2970,13 @@
 			files = (
 				DCF9EECE812084F0E69AF82B25F39D40 /* GetDeviceUUIDClass.h in Headers */,
 				B5A76C2476C33E33476065F4353544CA /* GetUUIDProtocal.h in Headers */,
-				C838F83F5B02969E29D26A9A4BD59F7F /* IIDataBase.h in Headers */,
-				FE6E5BA5C498C5D5D46297718D774286 /* IIDataBaseManage.h in Headers */,
+				45BEA705BEE4075ED764101A5C8BC59E /* IIDataBase.h in Headers */,
+				8A13625D204D3E318D0FE90413D902BD /* IIDataBaseManage.h in Headers */,
 				0048F85E6FB05F4CA4AC0C493BD18A77 /* IIOCUtility-umbrella.h in Headers */,
 				86CD77564436051AFD86F3EA5DD088C3 /* IMPAccessTokenModel.h in Headers */,
 				73D3BA23FAFB467E9240EE3379E0BC43 /* IMPCache.h in Headers */,
-				2931E731CD0B0636B19DA0075EF27923 /* IMPEnterpriseModel.h in Headers */,
-				ED17E8A83D50C9ECBA2065A24CA71647 /* IMPUserModel.h in Headers */,
+				6715F7ACE151E8CC672A1A42B91A8D77 /* IMPEnterpriseModel.h in Headers */,
+				27312C53FEDFCE72431DDF64936950D5 /* IMPUserModel.h in Headers */,
 				958A72576D8361193ADCB5D9641D4B48 /* KeyChainStore.h in Headers */,
 				9C9B8BA3803C11CFA7575AA4629A2B50 /* MJRefresh.h in Headers */,
 				B32CDC125AC7D0C307FE47A3A7172876 /* MJRefreshAutoFooter.h in Headers */,

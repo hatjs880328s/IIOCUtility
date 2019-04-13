@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IIOCUtility'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'IIOCUtility.'
 
 # This description is used to generate tags and improve search results.
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Cache' do |ss|
-      ss.public_header_files = 'IIOCUtility/Classes/Cache/IMPCache.h'
+    # ss.public_header_files = 'IIOCUtility/Classes/Cache/IMPCache.h'
       ss.source_files = 'IIOCUtility/Classes/Cache/*.{h,m,mm,txt}'
   end
 
