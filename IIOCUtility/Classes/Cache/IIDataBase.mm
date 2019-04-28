@@ -8,9 +8,7 @@
 
 #import "IIDataBase.h"
 #import "IMPUserModel.h"
-
-//数据库
-#define WCDBPassword            @"ImpWCDB100"
+#import "IIDataBaseManage.h"
 
 @interface IIDataBase ()
 
@@ -37,7 +35,7 @@ static IIDataBase *shareInstance = nil;
         NSString *documentsDirectory = [paths objectAtIndex:0];
         _db = [[WCTDatabase alloc] initWithPath:[documentsDirectory stringByAppendingPathComponent:[NSString stringWithFormat:@"WCDB_%@_%d_imp.db",[IMPUserModel activeInstance].enterprise.code,[IMPUserModel activeInstance].id]]];
 
-        NSData *password = [WCDBPassword dataUsingEncoding:NSASCIIStringEncoding];
+        NSData *password = [[IIDataBaseManage instance].wcdbPassword dataUsingEncoding:NSASCIIStringEncoding];
 
         [_db setCipherKey:password andCipherPageSize:1024];
 

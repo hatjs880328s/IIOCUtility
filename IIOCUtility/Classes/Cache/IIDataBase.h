@@ -29,6 +29,7 @@ typedef WCTOffset MyWCTOffset;
 ///调试参数 是否打印错误提示
 @property (assign, nonatomic) BOOL errorPrint;
 
+
 + (IIDataBase *)instance;
 
 ///关闭数据库

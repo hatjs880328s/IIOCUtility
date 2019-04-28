@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface IIDataBaseManage : NSObject
+
+@property (nonatomic, strong) NSString *wcdbPassword;
+
 + (IIDataBaseManage *)instance;
 - (void)closeDataBase;
 @end
