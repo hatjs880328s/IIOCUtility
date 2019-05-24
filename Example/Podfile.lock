@@ -3,56 +3,47 @@ PODS:
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
   - III18N (0.4.0)
-  - IIOCUtility (1.0.5):
+  - IIOCUtility (1.0.7):
     - FMDB
     - III18N
-    - IIOCUtility/AccessToken (= 1.0.5)
-    - IIOCUtility/Cache (= 1.0.5)
-    - IIOCUtility/GETDevice (= 1.0.5)
-    - IIOCUtility/IIMJRefresh (= 1.0.5)
-    - IIOCUtility/IIRouteAlert (= 1.0.5)
-    - IIOCUtility/UTI (= 1.0.5)
+    - IIOCUtility/AccessToken (= 1.0.7)
+    - IIOCUtility/Cache (= 1.0.7)
+    - IIOCUtility/GETDevice (= 1.0.7)
+    - IIOCUtility/IIRouteAlert (= 1.0.7)
+    - IIOCUtility/UTI (= 1.0.7)
     - MJExtension
     - SDWebImage (~> 4.4.5)
     - Toast
     - WCDB
-  - IIOCUtility/AccessToken (1.0.5):
-    - FMDB
-    - III18N
-    - MJExtension
-    - SDWebImage (~> 4.4.5)
-    - Toast
-    - WCDB
-  - IIOCUtility/Cache (1.0.5):
+  - IIOCUtility/AccessToken (1.0.7):
     - FMDB
     - III18N
     - MJExtension
     - SDWebImage (~> 4.4.5)
     - Toast
     - WCDB
-  - IIOCUtility/GETDevice (1.0.5):
+  - IIOCUtility/Cache (1.0.7):
     - FMDB
     - III18N
     - MJExtension
     - SDWebImage (~> 4.4.5)
     - Toast
     - WCDB
-  - IIOCUtility/IIMJRefresh (1.0.5):
-    - FMDB
-    - III18N
-    - IIOCUtility/Cache
-    - MJExtension
-    - SDWebImage (~> 4.4.5)
-    - Toast
-    - WCDB
-  - IIOCUtility/IIRouteAlert (1.0.5):
+  - IIOCUtility/GETDevice (1.0.7):
     - FMDB
     - III18N
     - MJExtension
     - SDWebImage (~> 4.4.5)
     - Toast
     - WCDB
-  - IIOCUtility/UTI (1.0.5):
+  - IIOCUtility/IIRouteAlert (1.0.7):
+    - FMDB
+    - III18N
+    - MJExtension
+    - SDWebImage (~> 4.4.5)
+    - Toast
+    - WCDB
+  - IIOCUtility/UTI (1.0.7):
     - FMDB
     - III18N
     - MJExtension
@@ -92,7 +83,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   III18N: 6c70b89556c9f75f272a4750948e01184f3428b9
-  IIOCUtility: b43551b3e0b1d28fda9b12fc142da13d90981f44
+  IIOCUtility: 630c2a50310fcc7340c96a206cdc12ca8eeae96e
   MJExtension: 54dbbf6ee728f1a88e9aad904353d007831c7847
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
   SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
@@ -102,4 +93,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 980dcabc2c2f477ab23958040446623dd4e47a0d
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.7.0.rc.2

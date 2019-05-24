@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "996945FA5C51EC0FF5C8D0A109BCB515"
+               BlueprintIdentifier = "C12C1BD63B96A8AA291B6314D4BB1D60"
+               BuildableName = "IIOCUtility.framework"
                BlueprintName = "IIOCUtility"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "IIOCUtility.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
