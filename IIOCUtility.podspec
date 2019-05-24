@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IIOCUtility'
-  s.version          = '1.0.7'
+  s.version          = '1.0.8'
   s.summary          = 'IIOCUtility.'
 
 # This description is used to generate tags and improve search results.
@@ -69,8 +69,8 @@ Pod::Spec.new do |s|
 
 
   s.frameworks = 'UIKit', 'AVFoundation', 'WebKit'
-  s.dependency 'SDWebImage', '~>4.4.5'
-  s.dependency 'III18N'
+  s.dependency 'SDWebImage'
+  s.dependency 'II18N'
   s.dependency 'MJExtension'
   s.dependency 'FMDB'
   s.dependency 'Toast'
