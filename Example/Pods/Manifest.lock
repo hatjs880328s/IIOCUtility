@@ -12,45 +12,45 @@ PODS:
     - IIOCUtility/IIRouteAlert (= 1.0.8)
     - IIOCUtility/UTI (= 1.0.8)
     - MJExtension
-    - SDWebImage
+    - SDWebImage (= 4.4.6)
     - Toast
     - WCDB
   - IIOCUtility/AccessToken (1.0.8):
     - FMDB
     - II18N
     - MJExtension
-    - SDWebImage
+    - SDWebImage (= 4.4.6)
     - Toast
     - WCDB
   - IIOCUtility/Cache (1.0.8):
     - FMDB
     - II18N
     - MJExtension
-    - SDWebImage
+    - SDWebImage (= 4.4.6)
     - Toast
     - WCDB
   - IIOCUtility/GETDevice (1.0.8):
     - FMDB
     - II18N
     - MJExtension
-    - SDWebImage
+    - SDWebImage (= 4.4.6)
     - Toast
     - WCDB
   - IIOCUtility/IIRouteAlert (1.0.8):
     - FMDB
     - II18N
     - MJExtension
-    - SDWebImage
+    - SDWebImage (= 4.4.6)
     - Toast
     - WCDB
   - IIOCUtility/UTI (1.0.8):
     - FMDB
     - II18N
     - MJExtension
-    - SDWebImage
+    - SDWebImage (= 4.4.6)
     - Toast
     - WCDB
-  - MJExtension (3.0.16)
+  - MJExtension (3.0.17)
   - SDWebImage (4.4.6):
     - SDWebImage/Core (= 4.4.6)
   - SDWebImage/Core (4.4.6)
@@ -83,8 +83,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   II18N: 323a17a6c4af02c6fed5d942dbdf5e540e2643b0
-  IIOCUtility: 56bbe3e475a290286f0fb51bc38ed8a8153155c6
-  MJExtension: 54dbbf6ee728f1a88e9aad904353d007831c7847
+  IIOCUtility: 124f39e4d26c7dc4eae5058e3f2b7b526010261a
+  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
   SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196

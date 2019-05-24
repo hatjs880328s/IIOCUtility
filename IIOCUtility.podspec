@@ -69,7 +69,7 @@ Pod::Spec.new do |s|
 
 
   s.frameworks = 'UIKit', 'AVFoundation', 'WebKit'
-  s.dependency 'SDWebImage'
+  s.dependency 'SDWebImage', '4.4.6'
   s.dependency 'II18N'
   s.dependency 'MJExtension'
   s.dependency 'FMDB'
