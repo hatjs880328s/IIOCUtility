@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IIOCUtility'
-  s.version          = '1.0.9'
+  s.version          = '1.0.10'
   s.summary          = 'IIOCUtility.'
 
 # This description is used to generate tags and improve search results.
@@ -18,13 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-1.AccessToken
-2.GetDevice
-3.RouteAlert
-4.Utilities
-5.Impcache
-6.IIWCDB
-7.IMPUser & EnterpriseModel
+1.IIWCDB
                        DESC
 
   s.homepage         = 'https://github.com/hatjs880328s/IIOCUtility'
@@ -46,33 +40,11 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-  s.subspec 'AccessToken' do |ss|
-      ss.source_files = 'IIOCUtility/Classes/AccessToken/*.{h,m}'
-  end
-
-  s.subspec 'GETDevice' do |ss|
-      ss.source_files = 'IIOCUtility/Classes/GETDevice/*.{h,m}'
-  end
-
-  s.subspec 'IIRouteAlert' do |ss|
-      ss.source_files = 'IIOCUtility/Classes/IIRouteAlert/*.{h,m}'
-  end
-
-  s.subspec 'UTI' do |ss|
-      ss.source_files = 'IIOCUtility/Classes/UTI/*.{h,m}'
-  end
-
-  s.subspec 'Cache' do |ss|
-    # ss.public_header_files = 'IIOCUtility/Classes/Cache/IMPCache.h'
-      ss.source_files = 'IIOCUtility/Classes/Cache/*.{h,m,mm,txt}'
+  s.subspec 'WCDB' do |ss|
+      ss.source_files = 'IIOCUtility/Classes/WCDB/*.{h,m,mm,txt}'
   end
 
 
   s.frameworks = 'UIKit', 'AVFoundation', 'WebKit'
-  s.dependency 'SDWebImage', '4.4.6'
-  s.dependency 'II18N'
-  s.dependency 'MJExtension'
-  s.dependency 'FMDB'
-  s.dependency 'Toast'
   s.dependency 'WCDB'
 end

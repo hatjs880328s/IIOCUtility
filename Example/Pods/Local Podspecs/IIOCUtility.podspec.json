@@ -1,6 +1,6 @@
 {
   "name": "IIOCUtility",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "summary": "IIOCUtility.",
   "description": "1.AccessToken\n2.GetDevice\n3.RouteAlert\n4.Utilities\n5.Impcache\n6.IIWCDB\n7.IMPUser & EnterpriseModel",
   "homepage": "https://github.com/hatjs880328s/IIOCUtility",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hatjs880328s/IIOCUtility.git",
-    "tag": "1.0.8"
+    "tag": "1.0.10"
   },
   "platforms": {
     "ios": "8.0"
@@ -24,45 +24,14 @@
     "WebKit"
   ],
   "dependencies": {
-    "SDWebImage": [
-      "4.4.6"
-    ],
-    "II18N": [
-
-    ],
-    "MJExtension": [
-
-    ],
-    "FMDB": [
-
-    ],
-    "Toast": [
-
-    ],
     "WCDB": [
 
     ]
   },
   "subspecs": [
     {
-      "name": "AccessToken",
-      "source_files": "IIOCUtility/Classes/AccessToken/*.{h,m}"
-    },
-    {
-      "name": "GETDevice",
-      "source_files": "IIOCUtility/Classes/GETDevice/*.{h,m}"
-    },
-    {
-      "name": "IIRouteAlert",
-      "source_files": "IIOCUtility/Classes/IIRouteAlert/*.{h,m}"
-    },
-    {
-      "name": "UTI",
-      "source_files": "IIOCUtility/Classes/UTI/*.{h,m}"
-    },
-    {
-      "name": "Cache",
-      "source_files": "IIOCUtility/Classes/Cache/*.{h,m,mm,txt}"
+      "name": "WCDB",
+      "source_files": "IIOCUtility/Classes/WCDB/*.{h,m,mm,txt}"
     }
   ]
 }

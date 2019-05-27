@@ -1,62 +1,11 @@
 PODS:
-  - FMDB (2.7.5):
-    - FMDB/standard (= 2.7.5)
-  - FMDB/standard (2.7.5)
-  - II18N (0.1.0)
-  - IIOCUtility (1.0.8):
-    - FMDB
-    - II18N
-    - IIOCUtility/AccessToken (= 1.0.8)
-    - IIOCUtility/Cache (= 1.0.8)
-    - IIOCUtility/GETDevice (= 1.0.8)
-    - IIOCUtility/IIRouteAlert (= 1.0.8)
-    - IIOCUtility/UTI (= 1.0.8)
-    - MJExtension
-    - SDWebImage (= 4.4.6)
-    - Toast
+  - IIOCUtility (1.0.10):
+    - IIOCUtility/WCDB (= 1.0.10)
     - WCDB
-  - IIOCUtility/AccessToken (1.0.8):
-    - FMDB
-    - II18N
-    - MJExtension
-    - SDWebImage (= 4.4.6)
-    - Toast
+  - IIOCUtility/WCDB (1.0.10):
     - WCDB
-  - IIOCUtility/Cache (1.0.8):
-    - FMDB
-    - II18N
-    - MJExtension
-    - SDWebImage (= 4.4.6)
-    - Toast
-    - WCDB
-  - IIOCUtility/GETDevice (1.0.8):
-    - FMDB
-    - II18N
-    - MJExtension
-    - SDWebImage (= 4.4.6)
-    - Toast
-    - WCDB
-  - IIOCUtility/IIRouteAlert (1.0.8):
-    - FMDB
-    - II18N
-    - MJExtension
-    - SDWebImage (= 4.4.6)
-    - Toast
-    - WCDB
-  - IIOCUtility/UTI (1.0.8):
-    - FMDB
-    - II18N
-    - MJExtension
-    - SDWebImage (= 4.4.6)
-    - Toast
-    - WCDB
-  - MJExtension (3.0.17)
-  - SDWebImage (4.4.6):
-    - SDWebImage/Core (= 4.4.6)
-  - SDWebImage/Core (4.4.6)
   - SQLiteRepairKit (1.2.2):
     - WCDBOptimizedSQLCipher (~> 1.2.0)
-  - Toast (4.0.0)
   - WCDB (1.0.7.5):
     - SQLiteRepairKit (~> 1.2.0)
     - WCDBOptimizedSQLCipher (~> 1.2.0)
@@ -67,12 +16,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - FMDB
-    - II18N
-    - MJExtension
-    - SDWebImage
     - SQLiteRepairKit
-    - Toast
     - WCDB
     - WCDBOptimizedSQLCipher
 
@@ -81,13 +25,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  II18N: 323a17a6c4af02c6fed5d942dbdf5e540e2643b0
-  IIOCUtility: 124f39e4d26c7dc4eae5058e3f2b7b526010261a
-  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
-  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  IIOCUtility: bff58356d745103c7f809975385a6570be7f44b3
   SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
-  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
   WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
 

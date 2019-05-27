@@ -7,7 +7,6 @@
 //
 
 #import "IIDataBase.h"
-#import "IMPUserModel.h"
 #import "IIDataBaseManage.h"
 
 @interface IIDataBase ()
@@ -28,12 +27,17 @@ static IIDataBase *shareInstance = nil;
     return shareInstance;
 }
 
+- (NSString *)getDBFileName {
+    return [IIDataBaseManage instance].fileNameBlock();
+}
+
 //内部添加方法需要使用self.db
 - (WCTDatabase *)db {
     if (_db == nil) {
         NSArray *paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
         NSString *documentsDirectory = [paths objectAtIndex:0];
-        _db = [[WCTDatabase alloc] initWithPath:[documentsDirectory stringByAppendingPathComponent:[NSString stringWithFormat:@"WCDB_%@_%d_imp.db",[IMPUserModel activeInstance].enterprise.code,[IMPUserModel activeInstance].id]]];
+        
+        _db = [[WCTDatabase alloc] initWithPath:[documentsDirectory stringByAppendingPathComponent:[self getDBFileName]]];
 
         NSData *password = [[IIDataBaseManage instance].wcdbPassword dataUsingEncoding:NSASCIIStringEncoding];
 
