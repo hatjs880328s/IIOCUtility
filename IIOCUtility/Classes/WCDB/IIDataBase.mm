@@ -116,7 +116,7 @@ static IIDataBase *shareInstance = nil;
                                         fromTable:(NSString *)tableName
                                           orderBy:(const MyWCTOrderByList &)orderList {
     if(![self isTableExists:tableName]){
-        return nil;
+        return [[NSArray alloc] init];
     }
     return [self.db getObjectsOfClass:cls fromTable:tableName orderBy:orderList];
 }
@@ -127,7 +127,7 @@ static IIDataBase *shareInstance = nil;
                                              limit:(const MyWCTLimit &)limit
                                             offset:(const MyWCTOffset &)offset{
     if(![self isTableExists:tableName]){
-        return nil;
+        return [[NSArray alloc] init];
     }
     return [self.db getObjectsOfClass:cls fromTable:tableName orderBy:orderList limit:limit offset:offset];
 }
@@ -137,7 +137,7 @@ static IIDataBase *shareInstance = nil;
                                             where:(const MyWCTCondition &)condition
                                           orderBy:(const MyWCTOrderByList &)orderList {
     if(![self isTableExists:tableName]){
-        return nil;
+        return [[NSArray alloc] init];
     }
     return [self.db getObjectsOfClass:cls fromTable:tableName where:condition orderBy:orderList];
 }
@@ -148,9 +148,20 @@ static IIDataBase *shareInstance = nil;
                                           orderBy:(const MyWCTOrderByList &)orderList
                                             limit:(const MyWCTLimit &)limit{
     if(![self isTableExists:tableName]){
-        return nil;
+        return [[NSArray alloc] init];
     }
     return [self.db getObjectsOfClass:cls fromTable:tableName where:condition orderBy:orderList limit:limit];
+}
+
+/// 查询多行数据
+- (NSArray /* <WCTObject*> */ *)getObjectsOfClass:(Class)cls
+                                        fromTable:(NSString *)tableName
+                                            where:(const MyWCTCondition &)condition
+                                            limit:(const MyWCTLimit &)limit {
+    if(![self isTableExists:tableName]){
+        return [[NSArray alloc] init];
+    }
+    return [self.db getObjectsOfClass:cls fromTable:tableName where:condition  limit:limit];
 }
 
 /// 查询多行数据
@@ -159,14 +170,14 @@ static IIDataBase *shareInstance = nil;
                                           orderBy:(const MyWCTOrderByList &)orderList
                                             limit:(const MyWCTLimit &)limit {
     if(![self isTableExists:tableName]){
-        return nil;
+        return [[NSArray alloc] init];
     }
     return [self.db getObjectsOfClass:cls fromTable:tableName orderBy:orderList limit:limit];
 }
 
 - (id /* WCTObject* */)getOneObjectOfClass:(Class)oneClass fromTable:(NSString *)tableName where:(const MyWCTCondition &)whereCondition {
     if(![self isTableExists:tableName]){
-        return nil;
+        return [[NSArray alloc] init];
     }
     return [self.db getOneObjectOfClass:oneClass fromTable:tableName where:whereCondition];
 }
@@ -174,7 +185,7 @@ static IIDataBase *shareInstance = nil;
 - (NSArray /* <WCTObject*> */ *)getAllObjectsOfClass:(Class)cls
                                            fromTable:(NSString *)tableName {
     if(![self isTableExists:tableName]){
-        return nil;
+        return [[NSArray alloc] init];
     }
     return [self.db getAllObjectsOfClass:cls fromTable:tableName];
 }
@@ -183,7 +194,7 @@ static IIDataBase *shareInstance = nil;
                                         fromTable:(NSString *)tableName
                                             where:(const MyWCTCondition &)condition {
     if(![self isTableExists:tableName]){
-        return nil;
+        return [[NSArray alloc] init];
     }
     return [self.db getObjectsOfClass:cls fromTable:tableName where:condition];
 }

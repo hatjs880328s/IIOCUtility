@@ -81,6 +81,13 @@ typedef WCTOffset MyWCTOffset;
                                             where:(const MyWCTCondition &)condition
                                           orderBy:(const MyWCTOrderByList &)orderList
                                             limit:(const MyWCTLimit &)limit;
+
+/// 查询多行数据
+- (NSArray /* <WCTObject*> */ *)getObjectsOfClass:(Class)cls
+                                        fromTable:(NSString *)tableName
+                                            where:(const MyWCTCondition &)condition
+                                            limit:(const MyWCTLimit &)limit;
+
 /// 查询多行数据
 - (NSArray /* <WCTObject*> */ *)getObjectsOfClass:(Class)cls
                                         fromTable:(NSString *)tableName

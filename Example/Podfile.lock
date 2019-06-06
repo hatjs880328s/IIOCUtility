@@ -1,8 +1,8 @@
 PODS:
-  - IIOCUtility (1.0.10):
-    - IIOCUtility/WCDB (= 1.0.10)
+  - IIOCUtility (1.0.11):
+    - IIOCUtility/WCDB (= 1.0.11)
     - WCDB
-  - IIOCUtility/WCDB (1.0.10):
+  - IIOCUtility/WCDB (1.0.11):
     - WCDB
   - SQLiteRepairKit (1.2.2):
     - WCDBOptimizedSQLCipher (~> 1.2.0)
@@ -25,7 +25,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  IIOCUtility: bff58356d745103c7f809975385a6570be7f44b3
+  IIOCUtility: fee0ec813cb556406e7e024b281835b134c1a306
   SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
   WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
   WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1

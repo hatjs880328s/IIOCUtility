@@ -1,8 +1,8 @@
 {
   "name": "IIOCUtility",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "summary": "IIOCUtility.",
-  "description": "1.AccessToken\n2.GetDevice\n3.RouteAlert\n4.Utilities\n5.Impcache\n6.IIWCDB\n7.IMPUser & EnterpriseModel",
+  "description": "1.IIWCDB",
   "homepage": "https://github.com/hatjs880328s/IIOCUtility",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/hatjs880328s/IIOCUtility.git",
-    "tag": "1.0.10"
+    "tag": "1.0.11"
   },
   "platforms": {
     "ios": "8.0"
