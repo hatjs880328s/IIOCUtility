@@ -177,7 +177,7 @@ static IIDataBase *shareInstance = nil;
 
 - (id /* WCTObject* */)getOneObjectOfClass:(Class)oneClass fromTable:(NSString *)tableName where:(const MyWCTCondition &)whereCondition {
     if(![self isTableExists:tableName]){
-        return [[NSArray alloc] init];
+        return nil;
     }
     return [self.db getOneObjectOfClass:oneClass fromTable:tableName where:whereCondition];
 }
