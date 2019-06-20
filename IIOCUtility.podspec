@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IIOCUtility'
-  s.version          = '1.0.12'
+  s.version          = '1.0.13'
   s.summary          = 'IIOCUtility.'
 
 # This description is used to generate tags and improve search results.
@@ -39,6 +39,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'IIOCUtility/Classes/Cache/IMPCache.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_version = '5.0'
 
   s.subspec 'WCDB' do |ss|
       ss.source_files = 'IIOCUtility/Classes/WCDB/*.{h,m,mm,txt}'

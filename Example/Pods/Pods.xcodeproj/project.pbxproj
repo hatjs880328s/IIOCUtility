@@ -556,6 +556,7 @@
 		09E2BA8E3A62CD5CAA13EE73A22E61E9 /* IIOCUtility-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IIOCUtility-umbrella.h"; sourceTree = "<group>"; };
 		0A10A3D2AF62A1B8E5862B177D5F9F8F /* WCTSelect.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTSelect.mm; path = objc/WCDB/interface/chaincall/WCTSelect.mm; sourceTree = "<group>"; };
 		0AA8EAC1E09B00973A72E6ED54E3E4C8 /* WCTIndexBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTIndexBinding.h; path = objc/WCDB/interface/orm/binding/WCTIndexBinding.h; sourceTree = "<group>"; };
+		0B2BA4641C180D2965DAF4B72EE9AE34 /* WCDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WCDB.framework; path = WCDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6DF830BA2DE3D46297246A869DE33A /* statement_create_index.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_create_index.cpp; path = objc/WCDB/abstract/statement_create_index.cpp; sourceTree = "<group>"; };
 		0B742F16C84FD344243E5BCFDF6B6DF7 /* fts3_unicode.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_unicode.c; path = ext/fts3/fts3_unicode.c; sourceTree = "<group>"; };
 		0BAE0CF7D2AFA998B4F280BD45BD8D08 /* fts5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fts5.h; sourceTree = "<group>"; };
@@ -712,9 +713,9 @@
 		5BAA7AE11AACA80A1257267279E8E83A /* WCTConstraintMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTConstraintMacro.h; path = objc/WCDB/interface/orm/macro/WCTConstraintMacro.h; sourceTree = "<group>"; };
 		5BB795FB5582B9AE868F13AF9902779C /* sqliteicu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliteicu.h; path = ext/icu/sqliteicu.h; sourceTree = "<group>"; };
 		5CA4197F656A2C12BE29FE035CEDC07E /* constraint_table.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = constraint_table.cpp; path = objc/WCDB/abstract/constraint_table.cpp; sourceTree = "<group>"; };
+		5DCCF5B5F792D4EC76585F50AC7D8D7B /* sqliterk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = sqliterk.framework; path = SQLiteRepairKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD6F2F6E7DE7B6BBF6160A66EAE4578 /* fts3_aux.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_aux.c; path = ext/fts3/fts3_aux.c; sourceTree = "<group>"; };
 		5DF6B630860AB21545515B3E42146897 /* statement_vacuum.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_vacuum.hpp; path = objc/WCDB/abstract/statement_vacuum.hpp; sourceTree = "<group>"; };
-		5E2E1772B1664D366CB37EF9AB9F4044 /* sqliterk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = sqliterk.framework; path = SQLiteRepairKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC58537B9B09B57DEF306249207B4EA /* WCTBinding.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTBinding.mm; path = objc/WCDB/interface/orm/binding/WCTBinding.mm; sourceTree = "<group>"; };
 		606A9F561BE6696A59B3AB20E58486B4 /* IIDataBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IIDataBase.mm; path = IIOCUtility/Classes/WCDB/IIDataBase.mm; sourceTree = "<group>"; };
 		60A7FDE29B12E92E780B870508DE15B0 /* mem2.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mem2.c; path = src/mem2.c; sourceTree = "<group>"; };
@@ -762,6 +763,7 @@
 		75E3853079639E3656E389B9DB606D1E /* statement_create_table.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_create_table.cpp; path = objc/WCDB/abstract/statement_create_table.cpp; sourceTree = "<group>"; };
 		761999C90358EDB5B65BEBAC5513B132 /* WCTDatabase+Table.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTDatabase+Table.mm"; path = "objc/WCDB/interface/table/WCTDatabase+Table.mm"; sourceTree = "<group>"; };
 		766D75C3FE2BA6053DDABAF8CAE108CB /* printf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = printf.c; path = src/printf.c; sourceTree = "<group>"; };
+		7679D96A59EF470CEFE57B3145131964 /* Pods_IIOCUtility_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IIOCUtility_Example.framework; path = "Pods-IIOCUtility_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7728C548B3D9F3F01B6DB9A32C3EEB54 /* statement.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement.cpp; path = objc/WCDB/abstract/statement.cpp; sourceTree = "<group>"; };
 		772FD2CDAA7BB924643A6B64959B506A /* WCTChainCall+Statistics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTChainCall+Statistics.h"; path = "objc/WCDB/interface/statictics/WCTChainCall+Statistics.h"; sourceTree = "<group>"; };
 		77608371DBF3F9F12A54418893819089 /* WCTError.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTError.mm; path = objc/WCDB/interface/statictics/WCTError.mm; sourceTree = "<group>"; };
@@ -769,7 +771,6 @@
 		77D33F83ECE58BD9263A7A9A7912B192 /* WCTTransaction.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTTransaction.mm; path = objc/WCDB/interface/transaction/WCTTransaction.mm; sourceTree = "<group>"; };
 		78204D22E71BC5A3C9DF289591B91534 /* trigger.c */ = {isa = PBXFileReference; includeInIndex = 1; name = trigger.c; path = src/trigger.c; sourceTree = "<group>"; };
 		784D6ACB26F3EF80AEAFBA9F4FF391ED /* WCTUpdate+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTUpdate+Private.h"; path = "objc/WCDB/interface/chaincall/WCTUpdate+Private.h"; sourceTree = "<group>"; };
-		78E4A0790D5C5F08655D8D452DF5A50E /* Pods_IIOCUtility_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IIOCUtility_Tests.framework; path = "Pods-IIOCUtility_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7989DD55144719CB5457E23CAF697091 /* build.c */ = {isa = PBXFileReference; includeInIndex = 1; name = build.c; path = src/build.c; sourceTree = "<group>"; };
 		7A2C136716A7CCAB5D78F38CE2D46829 /* attach.c */ = {isa = PBXFileReference; includeInIndex = 1; name = attach.c; path = src/attach.c; sourceTree = "<group>"; };
 		7AC02A0C7FE819DD56411D85EA1D4899 /* IIOCUtility.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IIOCUtility.modulemap; sourceTree = "<group>"; };
@@ -788,7 +789,6 @@
 		7F1BD2DFC57F7822DF1A407E6B1FF376 /* sqliterk_btree.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqliterk_btree.c; path = repair/sqliterk_btree.c; sourceTree = "<group>"; };
 		7FA204A79629B7B8EDB6E464F11333BB /* WCTStatement+Compatible.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTStatement+Compatible.h"; path = "objc/WCDB/interface/compatible/WCTStatement+Compatible.h"; sourceTree = "<group>"; };
 		7FB33DA1B1DC9E09950B1253BE3E209A /* WCTSequence.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTSequence.mm; path = objc/WCDB/interface/builtin/WCTSequence.mm; sourceTree = "<group>"; };
-		804CFB37EB1661EAA1F1DAB9BEEA395C /* IIOCUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IIOCUtility.framework; path = IIOCUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		806DB0171A7FCF02A6AA34AE9036B159 /* sqliterk_crypto.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqliterk_crypto.c; path = repair/sqliterk_crypto.c; sourceTree = "<group>"; };
 		8071EAFD099AB3BEE87E1BD308CB7E95 /* WCTInterface+Convenient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTInterface+Convenient.h"; path = "objc/WCDB/interface/convenient/WCTInterface+Convenient.h"; sourceTree = "<group>"; };
 		80FFE5C3DE68B6FF6666A19BAC11F539 /* update.c */ = {isa = PBXFileReference; includeInIndex = 1; name = update.c; path = src/update.c; sourceTree = "<group>"; };
@@ -837,6 +837,7 @@
 		9872DB03DF344425B9FA40F46F85C1C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		990BE4DE2BD885D0FF9AA2CD93CA9145 /* column_def.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = column_def.hpp; path = objc/WCDB/abstract/column_def.hpp; sourceTree = "<group>"; };
 		9A028A1094DC2263D665E21AB1C01505 /* WCTTransaction+Compatible.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "WCTTransaction+Compatible.mm"; path = "objc/WCDB/interface/compatible/WCTTransaction+Compatible.mm"; sourceTree = "<group>"; };
+		9B261FB55D9D463C4B92B67C72DEAE2C /* IIOCUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IIOCUtility.framework; path = IIOCUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD8182204A129E44C4A8AD3BEADCEA4 /* date.c */ = {isa = PBXFileReference; includeInIndex = 1; name = date.c; path = src/date.c; sourceTree = "<group>"; };
 		9C5EA7DB23056E581A54CF93DAE6E628 /* pragma.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pragma.h; path = src/pragma.h; sourceTree = "<group>"; };
 		9CA4E62641988F8382A423E9DF5CEEA7 /* WCTDatabase+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTDatabase+Private.h"; path = "objc/WCDB/interface/database/WCTDatabase+Private.h"; sourceTree = "<group>"; };
@@ -887,6 +888,7 @@
 		B2E6F21B61896363B5211A844F2F41F7 /* WCTDelete+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCTDelete+Private.h"; path = "objc/WCDB/interface/chaincall/WCTDelete+Private.h"; sourceTree = "<group>"; };
 		B338C08A6AA1B59B7281F1CC5FD9F70A /* WCTPropertyBase.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTPropertyBase.mm; path = objc/WCDB/interface/orm/coding/WCTPropertyBase.mm; sourceTree = "<group>"; };
 		B3BB89E429878B66C505EE40DFA530DE /* tokenizer.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = tokenizer.cpp; path = objc/WCDB/core/tokenizer.cpp; sourceTree = "<group>"; };
+		B3CF92365D6AE0F35C3602CF6C0872AE /* sqlcipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = sqlcipher.framework; path = WCDBOptimizedSQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F3776D7EC6EAD053BB178A5A3176E1 /* constraint_table.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = constraint_table.hpp; path = objc/WCDB/abstract/constraint_table.hpp; sourceTree = "<group>"; };
 		B525A16A8C26ECAF6A1226CB7ECDD0CC /* ticker.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ticker.cpp; path = objc/WCDB/util/ticker.cpp; sourceTree = "<group>"; };
 		B55F76DB5ED1F02D9075D4E613DCAFE9 /* mutex_wcdb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mutex_wcdb.h; path = src/mutex_wcdb.h; sourceTree = "<group>"; };
@@ -962,12 +964,10 @@
 		D7EBB0D6AE39E9A367E08A28A4B0021C /* WCTValue.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTValue.mm; path = objc/WCDB/interface/core/WCTValue.mm; sourceTree = "<group>"; };
 		D82CAB307A220FDA5B8CAE43EDABFB83 /* expr.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = expr.hpp; path = objc/WCDB/abstract/expr.hpp; sourceTree = "<group>"; };
 		D8A18BA1233EAA087BE38821E94C5494 /* WCTResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTResult.h; path = objc/WCDB/interface/orm/coding/WCTResult.h; sourceTree = "<group>"; };
-		D8FB50ED2DB3B80064601788349C6872 /* sqlcipher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = sqlcipher.framework; path = WCDBOptimizedSQLCipher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F347FAC5F23A1D292BAD02F36C3B27 /* literal_value.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = literal_value.cpp; path = objc/WCDB/abstract/literal_value.cpp; sourceTree = "<group>"; };
 		DA3CC848FAE0A5929898062E8053E400 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		DA7EEB08FE3482170C706811FEF235E1 /* wal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = wal.h; path = src/wal.h; sourceTree = "<group>"; };
 		DAD79453A0192F86B9BF7163C070079C /* sqliterk_pager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk_pager.h; path = repair/sqliterk_pager.h; sourceTree = "<group>"; };
-		DC87CDED76117ECAD2EECF28F9CA2069 /* Pods_IIOCUtility_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IIOCUtility_Example.framework; path = "Pods-IIOCUtility_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8CD3E143CEB1BA0BBD0BDFC39CC3AC /* IIOCUtility.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IIOCUtility.xcconfig; sourceTree = "<group>"; };
 		DFB220CEE0FDD89D754DB20042B6D9A7 /* WCTInsert.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTInsert.mm; path = objc/WCDB/interface/chaincall/WCTInsert.mm; sourceTree = "<group>"; };
 		E0DB8378A31F731FD5847C23C809CF5D /* WCDBOptimizedSQLCipher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCDBOptimizedSQLCipher-prefix.pch"; sourceTree = "<group>"; };
@@ -989,7 +989,6 @@
 		E9B91D41A0EE7EED64EE1C14ECB28D51 /* fts3_hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_hash.h; path = ext/fts3/fts3_hash.h; sourceTree = "<group>"; };
 		E9F0E73DF1DE1208ED0893C682BE322A /* WCDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WCDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F5DD8D8FB994996DD176C3E7747155 /* parse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = parse.h; sourceTree = "<group>"; };
-		EA08E507C10FA30BB52D6377048144FF /* WCDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WCDB.framework; path = WCDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA08EF67709F0DCE65DEDBA926790E2A /* WCTChainCall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WCTChainCall.h; path = objc/WCDB/interface/chaincall/WCTChainCall.h; sourceTree = "<group>"; };
 		EBA676DE613FA1240B057F73FEE63912 /* sqliterk_crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk_crypto.h; path = repair/sqliterk_crypto.h; sourceTree = "<group>"; };
 		EBC4E1E39117F047D630A7745C632AC1 /* database_file.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = database_file.cpp; path = objc/WCDB/core/database_file.cpp; sourceTree = "<group>"; };
@@ -1018,6 +1017,7 @@
 		FB4C421077BC109002BB350939610ACD /* bitvec.c */ = {isa = PBXFileReference; includeInIndex = 1; name = bitvec.c; path = src/bitvec.c; sourceTree = "<group>"; };
 		FBF289B8EBB2140762E2957875BABD9A /* WCTMaster.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = WCTMaster.mm; path = objc/WCDB/interface/builtin/WCTMaster.mm; sourceTree = "<group>"; };
 		FC1D939EDE1881D2C9872E7E54FB84FF /* statement_alter_table.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_alter_table.cpp; path = objc/WCDB/abstract/statement_alter_table.cpp; sourceTree = "<group>"; };
+		FC480B4404F2AE88EDDA28700E9868AE /* Pods_IIOCUtility_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IIOCUtility_Tests.framework; path = "Pods-IIOCUtility_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA8ED9CF64F402C4453A7695D2FAC62 /* statement_release.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = statement_release.cpp; path = objc/WCDB/abstract/statement_release.cpp; sourceTree = "<group>"; };
 		FCC11AF1C9B0848D6B860464BCF44588 /* sqlite3rtree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3rtree.h; path = ext/rtree/sqlite3rtree.h; sourceTree = "<group>"; };
 		FCC990B7AA47F70C56C4CB985EACD83D /* macro.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = macro.hpp; path = objc/WCDB/util/macro.hpp; sourceTree = "<group>"; };
@@ -1321,12 +1321,12 @@
 		537B281418005919BDE7E6E3BF22163E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				804CFB37EB1661EAA1F1DAB9BEEA395C /* IIOCUtility.framework */,
-				DC87CDED76117ECAD2EECF28F9CA2069 /* Pods_IIOCUtility_Example.framework */,
-				78E4A0790D5C5F08655D8D452DF5A50E /* Pods_IIOCUtility_Tests.framework */,
-				D8FB50ED2DB3B80064601788349C6872 /* sqlcipher.framework */,
-				5E2E1772B1664D366CB37EF9AB9F4044 /* sqliterk.framework */,
-				EA08E507C10FA30BB52D6377048144FF /* WCDB.framework */,
+				9B261FB55D9D463C4B92B67C72DEAE2C /* IIOCUtility.framework */,
+				7679D96A59EF470CEFE57B3145131964 /* Pods_IIOCUtility_Example.framework */,
+				FC480B4404F2AE88EDDA28700E9868AE /* Pods_IIOCUtility_Tests.framework */,
+				B3CF92365D6AE0F35C3602CF6C0872AE /* sqlcipher.framework */,
+				5DCCF5B5F792D4EC76585F50AC7D8D7B /* sqliterk.framework */,
+				0B2BA4641C180D2965DAF4B72EE9AE34 /* WCDB.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2019,7 +2019,7 @@
 			);
 			name = "Pods-IIOCUtility_Example";
 			productName = "Pods-IIOCUtility_Example";
-			productReference = DC87CDED76117ECAD2EECF28F9CA2069 /* Pods_IIOCUtility_Example.framework */;
+			productReference = 7679D96A59EF470CEFE57B3145131964 /* Pods_IIOCUtility_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		46B68FB361B0E581CECCA815555333A6 /* SQLiteRepairKit */ = {
@@ -2038,7 +2038,7 @@
 			);
 			name = SQLiteRepairKit;
 			productName = SQLiteRepairKit;
-			productReference = 5E2E1772B1664D366CB37EF9AB9F4044 /* sqliterk.framework */;
+			productReference = 5DCCF5B5F792D4EC76585F50AC7D8D7B /* sqliterk.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7AC2C6E1735146F1E0A04614976C5D18 /* WCDBOptimizedSQLCipher */ = {
@@ -2056,7 +2056,7 @@
 			);
 			name = WCDBOptimizedSQLCipher;
 			productName = WCDBOptimizedSQLCipher;
-			productReference = D8FB50ED2DB3B80064601788349C6872 /* sqlcipher.framework */;
+			productReference = B3CF92365D6AE0F35C3602CF6C0872AE /* sqlcipher.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88280FCCAA3AE0C7640CB30F5A2E290F /* WCDB */ = {
@@ -2076,7 +2076,7 @@
 			);
 			name = WCDB;
 			productName = WCDB;
-			productReference = EA08E507C10FA30BB52D6377048144FF /* WCDB.framework */;
+			productReference = 0B2BA4641C180D2965DAF4B72EE9AE34 /* WCDB.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C12C1BD63B96A8AA291B6314D4BB1D60 /* IIOCUtility */ = {
@@ -2095,7 +2095,7 @@
 			);
 			name = IIOCUtility;
 			productName = IIOCUtility;
-			productReference = 804CFB37EB1661EAA1F1DAB9BEEA395C /* IIOCUtility.framework */;
+			productReference = 9B261FB55D9D463C4B92B67C72DEAE2C /* IIOCUtility.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D75322876B2627E3FD176A0050AB771A /* Pods-IIOCUtility_Tests */ = {
@@ -2114,7 +2114,7 @@
 			);
 			name = "Pods-IIOCUtility_Tests";
 			productName = "Pods-IIOCUtility_Tests";
-			productReference = 78E4A0790D5C5F08655D8D452DF5A50E /* Pods_IIOCUtility_Tests.framework */;
+			productReference = FC480B4404F2AE88EDDA28700E9868AE /* Pods_IIOCUtility_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -2624,6 +2624,37 @@
 			};
 			name = Debug;
 		};
+		161FFD05686CDC678F60973059E4F4D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8CD3E143CEB1BA0BBD0BDFC39CC3AC /* IIOCUtility.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IIOCUtility/IIOCUtility-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IIOCUtility/IIOCUtility-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IIOCUtility/IIOCUtility.modulemap";
+				PRODUCT_MODULE_NAME = IIOCUtility;
+				PRODUCT_NAME = IIOCUtility;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		232AAD6E5E30CA01017088404ADE2C62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C2F54A57F7FE201F51816FDB404422E9 /* Pods-IIOCUtility_Tests.release.xcconfig */;
@@ -2657,36 +2688,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		2D7A541C70266CB2B106BFD577B04A0B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF8CD3E143CEB1BA0BBD0BDFC39CC3AC /* IIOCUtility.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IIOCUtility/IIOCUtility-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IIOCUtility/IIOCUtility-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IIOCUtility/IIOCUtility.modulemap";
-				PRODUCT_MODULE_NAME = IIOCUtility;
-				PRODUCT_NAME = IIOCUtility;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		3CCA2E7FBF89B136C9A995446B1ED91D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2942,6 +2943,38 @@
 			};
 			name = Release;
 		};
+		B33F43D21CB076ADB9F59EC43F3E4B54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8CD3E143CEB1BA0BBD0BDFC39CC3AC /* IIOCUtility.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IIOCUtility/IIOCUtility-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IIOCUtility/IIOCUtility-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/IIOCUtility/IIOCUtility.modulemap";
+				PRODUCT_MODULE_NAME = IIOCUtility;
+				PRODUCT_NAME = IIOCUtility;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D96C82636F9B1DB618F812B4FDFD0506 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 349BA593370282E3A758F511CC236CFC /* SQLiteRepairKit.xcconfig */;
@@ -3005,37 +3038,6 @@
 			};
 			name = Debug;
 		};
-		FD979C3F87DFB35F23E626DBC047A9E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF8CD3E143CEB1BA0BBD0BDFC39CC3AC /* IIOCUtility.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/IIOCUtility/IIOCUtility-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/IIOCUtility/IIOCUtility-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/IIOCUtility/IIOCUtility.modulemap";
-				PRODUCT_MODULE_NAME = IIOCUtility;
-				PRODUCT_NAME = IIOCUtility;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3060,8 +3062,8 @@
 		61400214A3FE34F62F25AAB9932FB9F2 /* Build configuration list for PBXNativeTarget "IIOCUtility" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D7A541C70266CB2B106BFD577B04A0B /* Debug */,
-				FD979C3F87DFB35F23E626DBC047A9E3 /* Release */,
+				161FFD05686CDC678F60973059E4F4D9 /* Debug */,
+				B33F43D21CB076ADB9F59EC43F3E4B54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
