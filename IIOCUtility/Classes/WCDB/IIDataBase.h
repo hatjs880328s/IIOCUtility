@@ -100,6 +100,33 @@ typedef WCTOffset MyWCTOffset;
 - (NSArray /* <WCTObject*> */ *)getAllObjectsOfClass:(Class)cls
                                            fromTable:(NSString *)tableName;
 
+/// 查询单列数据
+- (NSArray /* <WCTValue *> */*)getOneColumnOnResult:(const WCTResult &)result
+                                          fromTable:(NSString *)tableName;
+/// 查询单列数据
+- (NSArray /* <WCTValue *> */*)getOneColumnOnResult:(const WCTResult &)result
+                                          fromTable:(NSString *)tableName
+                                              where:(const MyWCTCondition &)condition
+                                              limit:(const MyWCTLimit &)limit;
+/// 查询单列数据
+- (NSArray /* <WCTValue *> */*)getOneColumnOnResult:(const WCTResult &)result
+                                          fromTable:(NSString *)tableName
+                                              where:(const MyWCTCondition &)condition
+                                            orderBy:(const MyWCTOrderByList &)orderList;
+/// 查询单列数据
+- (NSArray /* <WCTValue *> */*)getOneColumnOnResult:(const WCTResult &)result
+                                          fromTable:(NSString *)tableName
+                                              where:(const MyWCTCondition &)condition
+                                            orderBy:(const MyWCTOrderByList &)orderList
+                                              limit:(const MyWCTLimit &)limit;
+/// 查询单列数据
+- (NSArray /* <WCTValue *> */*)getOneColumnOnResult:(const WCTResult &)result
+                                          fromTable:(NSString *)tableName
+                                              where:(const MyWCTCondition &)condition
+                                            orderBy:(const MyWCTOrderByList &)orderList
+                                              limit:(const MyWCTLimit &)limit
+                                             offset:(const WCTOffset &)offset;
+
 /// 使用事务批量插入|替换models，失败自动回滚
 - (BOOL)insertOrReplaceObjectsByTransaction:(NSArray *)objects into:(NSString *)tableName;
 

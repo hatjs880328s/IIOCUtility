@@ -199,6 +199,63 @@ static IIDataBase *shareInstance = nil;
     return [self.db getObjectsOfClass:cls fromTable:tableName where:condition];
 }
 
+- (NSArray /* <WCTValue *> */*)getOneColumnOnResult:(const WCTResult &)result
+                                          fromTable:(NSString *)tableName {
+    if(![self isTableExists:tableName]){
+        return [[NSArray alloc] init];
+    }
+    WCTOneColumn *objects = [self.db getOneColumnOnResult:result
+                                                fromTable:tableName];
+    return [[NSArray alloc] initWithArray:objects];
+}
+- (NSArray /* <WCTValue *> */*)getOneColumnOnResult:(const WCTResult &)result
+                                          fromTable:(NSString *)tableName
+                                              where:(const MyWCTCondition &)condition
+                                              limit:(const MyWCTLimit &)limit{
+    if(![self isTableExists:tableName]){
+        return [[NSArray alloc] init];
+    }
+    WCTOneColumn *objects = [self.db getOneColumnOnResult:result
+                                                fromTable:tableName where:condition limit:limit];
+    return [[NSArray alloc] initWithArray:objects];
+}
+- (NSArray /* <WCTValue *> */*)getOneColumnOnResult:(const WCTResult &)result
+                                          fromTable:(NSString *)tableName
+                                              where:(const MyWCTCondition &)condition
+                                            orderBy:(const MyWCTOrderByList &)orderList{
+    if(![self isTableExists:tableName]){
+        return [[NSArray alloc] init];
+    }
+    WCTOneColumn *objects = [self.db getOneColumnOnResult:result
+                                                fromTable:tableName where:condition orderBy:orderList];
+    return [[NSArray alloc] initWithArray:objects];
+}
+- (NSArray /* <WCTValue *> */*)getOneColumnOnResult:(const WCTResult &)result
+                                          fromTable:(NSString *)tableName
+                                              where:(const MyWCTCondition &)condition
+                                            orderBy:(const MyWCTOrderByList &)orderList
+                                              limit:(const MyWCTLimit &)limit {
+    if(![self isTableExists:tableName]){
+        return [[NSArray alloc] init];
+    }
+    WCTOneColumn *objects = [self.db getOneColumnOnResult:result
+                                                fromTable:tableName where:condition orderBy:orderList limit:limit];
+    return [[NSArray alloc] initWithArray:objects];
+}
+- (NSArray /* <WCTValue *> */*)getOneColumnOnResult:(const WCTResult &)result
+                                          fromTable:(NSString *)tableName
+                                              where:(const MyWCTCondition &)condition
+                                            orderBy:(const MyWCTOrderByList &)orderList
+                                              limit:(const MyWCTLimit &)limit
+                                             offset:(const WCTOffset &)offset{
+    if(![self isTableExists:tableName]){
+        return [[NSArray alloc] init];
+    }
+    WCTOneColumn *objects = [self.db getOneColumnOnResult:result
+                                                fromTable:tableName where:condition orderBy:orderList limit:limit offset:offset];
+    return [[NSArray alloc] initWithArray:objects];
+}
+
 - (BOOL)insertOrReplaceObjectsByTransaction:(NSArray *)objects into:(NSString *)tableName {
     BOOL ret = [self.db beginTransaction];
     if(!ret){
