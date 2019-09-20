@@ -66,6 +66,14 @@ typedef WCTOffset MyWCTOffset;
                                             limit:(const MyWCTLimit &)limit
                                            offset:(const MyWCTOffset &)offset;
 
+/// 查询多行数据 可用于分页查询 
+- (NSArray /* <WCTObject*> */ *)getObjectsOfClass:(Class)cls
+                                        fromTable:(NSString *)tableName
+                                            where:(const MyWCTCondition &)condition
+                                          orderBy:(const MyWCTOrderByList &)orderList
+                                            limit:(const MyWCTLimit &)limit
+                                           offset:(const WCTOffset &)offset;
+
 /// 查询多行数据
 - (NSArray /* <WCTObject*> */ *)getObjectsOfClass:(Class)cls
                                         fromTable:(NSString *)tableName
@@ -132,7 +140,7 @@ typedef WCTOffset MyWCTOffset;
 
 /// 使用事务批量删除数据，失败自动回滚
 - (BOOL)deleteObjectsFromTableByTransaction:(NSString *)tableName
-                         where:(const MyWCTCondition &)condition;
+                                      where:(const MyWCTCondition &)condition;
 
 /// 使用事务批量插入和删除数据，失败自动回滚
 - (BOOL)transactionWithInsertObjects:(NSArray *)objects insertInto:(NSString *)insertTableName deleteObjectsFrom:(NSString *)deleteTableName deleteWhere:(const MyWCTCondition &)condition;

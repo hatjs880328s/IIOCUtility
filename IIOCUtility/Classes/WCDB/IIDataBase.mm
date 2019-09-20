@@ -36,7 +36,7 @@ static IIDataBase *shareInstance = nil;
     if (_db == nil) {
         NSArray *paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
         NSString *documentsDirectory = [paths objectAtIndex:0];
-        
+
         _db = [[WCTDatabase alloc] initWithPath:[documentsDirectory stringByAppendingPathComponent:[self getDBFileName]]];
 
         NSData *password = [[IIDataBaseManage instance].wcdbPassword dataUsingEncoding:NSASCIIStringEncoding];
@@ -122,10 +122,10 @@ static IIDataBase *shareInstance = nil;
 }
 
 - (NSArray /* <WCTObject*> */ *)getObjectsOfClass:(Class)cls
-                                         fromTable:(NSString *)tableName
-                                           orderBy:(const MyWCTOrderByList &)orderList
-                                             limit:(const MyWCTLimit &)limit
-                                            offset:(const MyWCTOffset &)offset{
+                                        fromTable:(NSString *)tableName
+                                          orderBy:(const MyWCTOrderByList &)orderList
+                                            limit:(const MyWCTLimit &)limit
+                                           offset:(const MyWCTOffset &)offset{
     if(![self isTableExists:tableName]){
         return [[NSArray alloc] init];
     }
@@ -151,6 +151,19 @@ static IIDataBase *shareInstance = nil;
         return [[NSArray alloc] init];
     }
     return [self.db getObjectsOfClass:cls fromTable:tableName where:condition orderBy:orderList limit:limit];
+}
+
+/// 分页查询多行数据
+- (NSArray /* <WCTObject*> */ *)getObjectsOfClass:(Class)cls
+                                        fromTable:(NSString *)tableName
+                                            where:(const MyWCTCondition &)condition
+                                          orderBy:(const MyWCTOrderByList &)orderList
+                                            limit:(const MyWCTLimit &)limit
+                                           offset:(const WCTOffset &)offset {
+    if(![self isTableExists:tableName]){
+        return [[NSArray alloc] init];
+    }
+    return [self.db getObjectsOfClass:cls fromTable:tableName where:condition orderBy:orderList limit:limit offset:offset];
 }
 
 /// 查询多行数据
@@ -324,7 +337,7 @@ static IIDataBase *shareInstance = nil;
 
 - (void)registerTimeMonitor {
     [WCTStatistics SetGlobalPerformanceTrace:^(WCTTag tag, NSDictionary<NSString *, NSNumber *> *sqls, NSInteger cost) {
-//        NSLog(@"Tag: %d", tag);
+        //        NSLog(@"Tag: %d", tag);
         [sqls enumerateKeysAndObjectsUsingBlock:^(NSString *sql, NSNumber *count, BOOL *) {
             NSLog(@"SQL: %@ Count: %d", sql, count.intValue);
         }];
